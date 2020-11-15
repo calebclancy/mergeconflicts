@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Merged Conflicts</title>
+</head>
+
+<body>
+
+  <script>
+
+var suitelist = prompt("What is your suite?")
+
+var cardName1 = "Hearts"; // Double quotes
+var cardName2 = "Spades"; // Double quotes
+var cardName3 = "Diamonds"; // Double quotes
+var cardName4 = "Clubs"; // Double quotes
+
+document.getElementById("demo").innerHTML =
+cardName1 + "1" + cardName2 +cardName3 + cardName4;
+
+var cardName1 = "2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace";
+var cardName2 = "2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace";
+var cardName3 = "2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace";
+var cardName4 = "2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace";
+document.getElementById("demo").innerHTML =
+cardName1 + "<br>" + cardName2 + "<br>" + cardName3 + "<br>" + cardName4;
+  </script>
+
+      <ul>
+        <li>Card List</li>
+        <li><script> document.write(cardName1[0])  </script></li>
+        <li><script> document.write(cardName2[1])  </script></li>
+        <li><script> document.write(cardName3[2])  </script></li>
+        <li><script> document.write(cardName4[3])  </script></li>
+      </ul>
+
+</body>
+
+</html>
